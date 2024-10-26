@@ -23,7 +23,7 @@ template_id = os.environ["TEMPLATE_ID"]
 
 # 用户ID
 user_id_1 = os.environ["wxid_qq59zpwajdpj21"]
-user_id_2 = os.environ["USER_ID_2"]  # 如果只有一个人，删去即可
+# user_id_2 = os.environ["USER_ID_2"]  # 如果只有一个人，删去即可
 
 # 以上环境变量不需要修改，只需要在 github 的 secrets 中添加即可
 
@@ -41,7 +41,10 @@ user_id_2 = os.environ["USER_ID_2"]  # 如果只有一个人，删去即可
        city: 城市编码，在高德 api 接口文档处查询
 '''
 user_id_list = [
-    {'user_id': user_id_1, "name": 'Orange', "date": "2021-04-02", "birthday": "05-28",
+    {'user_id': user_id_1,
+     "name": 'YY', 
+     "date": "2024-07-27", 
+     "birthday": "02-23",
      'city': '230110'}
     # ,{'user_id': user_id_2, "name": 'Orange', "date": "2021-04-02", "birthday": "05-28",
     #  'city': '110108'}
